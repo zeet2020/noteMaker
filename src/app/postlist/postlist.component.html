@@ -1,0 +1,29 @@
+
+				<div class="panel panel-default">
+				<div class="panel-heading">
+					<a (click)="clearObjectStore($event)" type="button" class="btn btn-danger pull-right active btn-xs">Delete All</a>
+
+					<h3 class="panel-title">
+						List of Notes
+											</h3>
+											
+					
+				</div>
+				<div class="notelist panel-body">
+					<div  *ngFor="let l of list; let i = index" class="list-group-item">
+					<div (click)="openPost($event,l)"class="list-group-item-text">
+					   <span>{{l.title}}</span>
+					   
+					</div>
+					<div class=" removenote">
+					   <span (click)="removePost($event,l)" class="glyphicon glyphicon-remove"></span>
+					   </div>
+				</div>
+				</div>
+				<div class="panel-footer">
+					<!-- <button type="button" (click)="loadMore($event)" class="btn btn-block btn-success btn-sm active">
+				More
+			</button> -->
+				</div>
+				
+			</div>

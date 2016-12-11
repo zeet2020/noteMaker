@@ -18,9 +18,21 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        
+        "css/bootstrap.min.css",
+        "css/bootstrap-theme.min.css",
+        "css/medium-editor.css",
+        "css/default.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "js/jquery.min.js",
+        "js/bootstrap.min.js",
+        "js/medium-editor.js",
+        "js/jquery.slimscroll.min.js",
+        "../node_modules/underscore/underscore.js"
+
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+#editable {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding:10px;
+    overflow-y: scroll;
+}
+
+.notelist {
+    width:100%;
+    /*height: 575px;
+    overflow-y: scroll;
+    overflow-x: hidden;*/
+}
+
+.removenote {
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 10px;
+    padding-left: 20px;
+    top: 1%;
+    width: 50px;
+    height: 38px;
+    padding-left: 9;
+    left: 85%;
+    position: absolute
+}
